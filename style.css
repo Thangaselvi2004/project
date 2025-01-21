@@ -1,0 +1,88 @@
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  
+  nav {
+      background-color: rgb(214, 43, 106);
+      color: white;
+      padding: 15px;
+  }
+  
+  li,
+  h1,
+  ul {
+      display: inline;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: large;
+      text-align: center;
+      font-style: normal;
+  }
+  
+  ul {
+      margin-left: 80%;
+  }
+  
+  li {
+      color: rgb(16, 16, 185);
+      cursor: pointer;
+  }
+  
+  li:hover {
+      color: rgb(41, 2, 77);
+  }
+  
+  input {
+      width: 70%;
+      padding: 15px;
+  }
+  
+  .searchbar {
+      padding: 70px;
+      text-align: center;
+  }
+  
+  .box {
+      border-style: solid;
+      border-color: rosybrown;
+      border-width: auto;
+      display: inline-block;
+      width: 300px;
+  }
+  
+  img {
+      display: block;
+  }
+  
+  .box:hover {
+      text-shadow: blue;
+      background-color: deeppink;
+      color: black;
+  }
+  
+  .course {
+      text-align: center;
+      padding: 20px;
+  }
+  
+  .about {
+      text-align: center;
+      margin-top: 20px;
+      padding: 30px;
+  }
+  
+  course_detail {
+      text-align: center;
+      padding: 50%px;
+      width: auto;
+  }
+  
+  .contact {
+      text-align: center;
+      border: pink;
+      background-color: black;
+      color: crimson;
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+  }
